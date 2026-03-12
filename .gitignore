@@ -1,0 +1,48 @@
+# Database files
+*.db
+*.db-journal
+database/
+
+# Log files
+*.log
+/tmp/
+
+# Build artifacts
+backend/build/
+backend/CMakeCache.txt
+backend/CMakeFiles/
+*.o
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+nohup.out
