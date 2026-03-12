@@ -1,0 +1,1785 @@
+Stock Analyzer Server starting on port 8080...
+(2026-03-05 19:19:51) [INFO    ] Crow/master server is running at http://0.0.0.0:8080 using 10 threads
+(2026-03-05 19:19:51) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2026-03-05 19:19:53) [INFO    ] Request: 127.0.0.1:51558 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:20:05) [INFO    ] Request: 127.0.0.1:51634 0x12b808218 HTTP/1.1 GET /api/stocks/AAPL
+(2026-03-05 19:20:05) [INFO    ] Response: 0x12b808218 /api/stocks/AAPL 404 1
+(2026-03-05 19:20:13) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-05 19:20:18) [INFO    ] Request: 127.0.0.1:51713 0x13b016618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:20:34) [INFO    ] Request: 127.0.0.1:51828 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:20:36) [INFO    ] Response: 0x13b016618 /api/stocks 200 1
+(2026-03-05 19:20:52) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-05 19:20:53) [INFO    ] Request: 127.0.0.1:51974 0x12d81c618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:21:13) [INFO    ] Response: 0x12d81c618 /api/stocks 200 1
+(2026-03-05 19:21:35) [INFO    ] Request: 127.0.0.1:52196 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:21:53) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-05 19:22:12) [INFO    ] Request: 127.0.0.1:52399 0x12b809e18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:22:31) [INFO    ] Response: 0x12b809e18 /api/stocks 200 1
+(2026-03-05 19:22:36) [INFO    ] Request: 127.0.0.1:52548 0x12d00be18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:23:02) [INFO    ] Response: 0x12d00be18 /api/stocks 200 1
+(2026-03-05 19:23:21) [INFO    ] Request: 127.0.0.1:52790 0x12d00a618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:23:37) [INFO    ] Response: 0x12d00a618 /api/stocks 200 1
+(2026-03-05 19:23:37) [INFO    ] Request: 127.0.0.1:52932 0x12e008218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:23:41) [INFO    ] Request: 127.0.0.1:52957 0x13b810618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:23:53) [INFO    ] Response: 0x12e008218 /api/stocks 200 1
+(2026-03-05 19:23:53) [INFO    ] Request: 127.0.0.1:53102 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:23:54) [INFO    ] Response: 0x13b810618 /api/stocks 200 1
+(2026-03-05 19:24:05) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-05 19:24:38) [INFO    ] Request: 127.0.0.1:53347 0x12b809e18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:24:42) [INFO    ] Request: 127.0.0.1:53377 0x12d808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:24:51) [INFO    ] Response: 0x12b809e18 /api/stocks 200 1
+(2026-03-05 19:24:56) [INFO    ] Response: 0x12d808218 /api/stocks 200 1
+(2026-03-05 19:25:20) [INFO    ] Request: 127.0.0.1:53587 0x13c016218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:25:32) [INFO    ] Response: 0x13c016218 /api/stocks 200 1
+(2026-03-05 19:25:34) [INFO    ] Request: 127.0.0.1:53640 0x12b80b418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:25:43) [INFO    ] Request: 127.0.0.1:53682 0x12e008218 HTTP/1.1 GET /api/stock/AAPL
+Fetching stock: AAPL
+(2026-03-05 19:25:44) [INFO    ] Response: 0x12e008218 /api/stock/AAPL 200 1
+(2026-03-05 19:25:45) [INFO    ] Response: 0x12b80b418 /api/stocks 200 1
+(2026-03-05 19:25:45) [INFO    ] Request: 127.0.0.1:53702 0x13c013018 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-05 19:25:58) [INFO    ] Response: 0x13c013018 /api/stocks 200 1
+(2026-03-05 19:25:58) [INFO    ] Request: 127.0.0.1:53754 0x12d00ec18 HTTP/1.1 GET /api/stock/MSFT
+Fetching stock: MSFT
+(2026-03-05 19:25:59) [INFO    ] Response: 0x12d00ec18 /api/stock/MSFT 200 1
+(2026-03-06 06:56:28) [INFO    ] Request: 127.0.0.1:58243 0x12c00d418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-06 06:56:36) [INFO    ] Request: 127.0.0.1:58263 0x13b00e418 HTTP/1.1 GET /api/stock/AAPL
+Fetching stock: AAPL
+(2026-03-06 06:56:39) [INFO    ] Response: 0x13b00e418 /api/stock/AAPL 200 1
+(2026-03-06 06:56:54) [INFO    ] Response: 0x12c00d418 /api/stocks 200 1
+(2026-03-06 06:56:56) [INFO    ] Request: 127.0.0.1:58307 0x12b80e018 HTTP/1.1 GET /api/stock/TESL
+Fetching stock: TESL
+(2026-03-06 06:56:59) [INFO    ] Response: 0x12b80e018 /api/stock/TESL 200 1
+(2026-03-06 06:57:21) [INFO    ] Request: 127.0.0.1:58318 0x12b809e18 HTTP/1.1 GET /api/stock/SP500
+Fetching stock: SP500
+Error parsing stock data for SP500: [json.exception.type_error.306] cannot use value() with null
+(2026-03-06 06:57:21) [INFO    ] Response: 0x12b809e18 /api/stock/SP500 200 1
+(2026-03-06 06:57:28) [INFO    ] Request: 127.0.0.1:58323 0x12d00a618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-06 06:57:31) [INFO    ] Request: 127.0.0.1:58331 0x12e008218 HTTP/1.1 GET /api/stock/TSCM
+Fetching stock: TSCM
+(2026-03-06 06:57:34) [INFO    ] Response: 0x12e008218 /api/stock/TSCM 200 1
+(2026-03-06 06:57:55) [INFO    ] Response: 0x12d00a618 /api/stocks 200 1
+(2026-03-06 06:58:31) [INFO    ] Request: 127.0.0.1:58404 0x12c808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+(2026-03-06 06:58:58) [INFO    ] Response: 0x12c808218 /api/stocks 200 1
+(2026-03-06 06:59:31) [INFO    ] Request: 127.0.0.1:58490 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 06:59:41) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-06 07:00:32) [INFO    ] Request: 127.0.0.1:58574 0x12e808618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:00:42) [INFO    ] Response: 0x12e808618 /api/stocks 200 1
+(2026-03-06 07:01:32) [INFO    ] Request: 127.0.0.1:58643 0x12d00bc18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:01:42) [INFO    ] Response: 0x12d00bc18 /api/stocks 200 1
+(2026-03-06 07:02:32) [INFO    ] Request: 127.0.0.1:58710 0x12b809e18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:02:42) [INFO    ] Response: 0x12b809e18 /api/stocks 200 1
+(2026-03-06 07:05:22) [INFO    ] Request: 127.0.0.1:58763 0x12b80b218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:05:31) [INFO    ] Response: 0x12b80b218 /api/stocks 200 1
+(2026-03-06 07:10:26) [INFO    ] Request: 127.0.0.1:58873 0x13b811018 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:10:35) [INFO    ] Response: 0x13b811018 /api/stocks 200 1
+(2026-03-06 07:11:26) [INFO    ] Request: 127.0.0.1:58914 0x13b812418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:11:31) [INFO    ] Response: 0x13b812418 /api/stocks 200 1
+(2026-03-06 07:12:38) [INFO    ] Request: 127.0.0.1:58973 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:12:44) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-06 07:13:38) [INFO    ] Request: 127.0.0.1:59009 0x12d808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:13:44) [INFO    ] Response: 0x12d808218 /api/stocks 200 1
+(2026-03-06 07:14:39) [INFO    ] Request: 127.0.0.1:59037 0x12c808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:14:44) [INFO    ] Response: 0x12c808218 /api/stocks 200 1
+(2026-03-06 07:15:39) [INFO    ] Request: 127.0.0.1:59075 0x12e80a418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:15:43) [INFO    ] Response: 0x12e80a418 /api/stocks 200 1
+(2026-03-06 07:16:39) [INFO    ] Request: 127.0.0.1:59110 0x13c014818 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:16:43) [INFO    ] Response: 0x13c014818 /api/stocks 200 1
+(2026-03-06 07:18:06) [INFO    ] Request: 127.0.0.1:59147 0x13b810618 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:18:12) [INFO    ] Response: 0x13b810618 /api/stocks 200 1
+(2026-03-06 07:19:06) [INFO    ] Request: 127.0.0.1:59172 0x12d808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:19:12) [INFO    ] Response: 0x12d808218 /api/stocks 200 1
+(2026-03-06 07:20:06) [INFO    ] Request: 127.0.0.1:59209 0x12e008218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:20:11) [INFO    ] Response: 0x12e008218 /api/stocks 200 1
+(2026-03-06 07:21:07) [INFO    ] Request: 127.0.0.1:59248 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:21:11) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-06 07:22:07) [INFO    ] Request: 127.0.0.1:59279 0x12c008218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:22:12) [INFO    ] Response: 0x12c008218 /api/stocks 200 1
+(2026-03-06 07:23:30) [INFO    ] Request: 127.0.0.1:59317 0x12b80bc18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:23:36) [INFO    ] Response: 0x12b80bc18 /api/stocks 200 1
+(2026-03-06 07:24:31) [INFO    ] Request: 127.0.0.1:59352 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:24:36) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-06 07:25:31) [INFO    ] Request: 127.0.0.1:59397 0x12e009218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:25:36) [INFO    ] Response: 0x12e009218 /api/stocks 200 1
+(2026-03-06 07:26:36) [INFO    ] Request: 127.0.0.1:59434 0x12b80aa18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:26:42) [INFO    ] Response: 0x12b80aa18 /api/stocks 200 1
+(2026-03-06 07:27:36) [INFO    ] Request: 127.0.0.1:59471 0x12e009218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:27:41) [INFO    ] Response: 0x12e009218 /api/stocks 200 1
+(2026-03-06 07:28:51) [INFO    ] Request: 127.0.0.1:59510 0x12b80aa18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:28:56) [INFO    ] Response: 0x12b80aa18 /api/stocks 200 1
+(2026-03-06 07:29:51) [INFO    ] Request: 127.0.0.1:59546 0x12e808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:29:57) [INFO    ] Response: 0x12e808218 /api/stocks 200 1
+(2026-03-06 07:42:43) [INFO    ] Request: 127.0.0.1:59743 0x12b80aa18 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 07:42:48) [INFO    ] Response: 0x12b80aa18 /api/stocks 200 1
+(2026-03-06 11:24:42) [INFO    ] Request: 127.0.0.1:60579 0x13b00e418 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: AAPL
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: MSFT
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: GOOGL
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: AMZN
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: TSLA
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: META
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: NVDA
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: JPM
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: V
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: WMT
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+(2026-03-06 11:24:42) [INFO    ] Response: 0x13b00e418 /api/stocks 200 1
+(2026-03-06 11:24:42) [INFO    ] Request: 127.0.0.1:60581 0x12c808218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: AAPL
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: MSFT
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: GOOGL
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: AMZN
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: TSLA
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: META
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: NVDA
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: JPM
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: V
+curl_easy_perform() failed: Couldn't resolve host name
+Empty response for symbol: WMT
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+curl_easy_perform() failed: Couldn't resolve host name
+(2026-03-06 11:24:42) [INFO    ] Response: 0x12c808218 /api/stocks 200 1
+(2026-03-06 11:31:59) [INFO    ] Request: 127.0.0.1:60699 0x12c80b218 HTTP/1.1 GET /api/stocks
+Fetching top stocks...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001fff56140 (most recent call first):
+  <no Python frame>
+(2026-03-06 11:32:06) [INFO    ] Response: 0x12c80b218 /api/stocks 200 1
