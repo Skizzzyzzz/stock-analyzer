@@ -1,11 +1,18 @@
 # Database files
 *.db
 *.db-journal
+*.sqlite
+*.sqlite3
 database/
 
 # Log files
 *.log
 /tmp/
+
+# Environment files
+.env
+.env.*
+!.env.example
 
 # Build artifacts
 backend/build/
