@@ -15,7 +15,15 @@ find_package(OpenSSL REQUIRED)
 # Add Crow (header-only library) and ASIO
 # Download crow_all.h from: https://github.com/CrowCpp/Crow/releases
 include_directories(${CMAKE_SOURCE_DIR}/libs)
-include_directories(/opt/homebrew/include)
+
+# macOS: Homebrew puts headers in /opt/homebrew/include (Apple Silicon) or /usr/local/include (Intel)
+if(APPLE)
+    if(EXISTS /opt/homebrew/include)
+        include_directories(/opt/homebrew/include)
+    elseif(EXISTS /usr/local/include)
+        include_directories(/usr/local/include)
+    endif()
+endif()
 
 # Source files
 set(SOURCES
@@ -30,13 +38,19 @@ set(SOURCES
 add_executable(stock_analyzer ${SOURCES})
 
 # Link libraries
-target_link_libraries(stock_analyzer 
+target_link_libraries(stock_analyzer
     CURL::libcurl
     SQLite::SQLite3
     OpenSSL::SSL
     OpenSSL::Crypto
-    pthread
 )
+
+# pthreads on Unix/macOS; Winsock on Windows
+if(WIN32)
+    target_link_libraries(stock_analyzer ws2_32 mswsock)
+else()
+    target_link_libraries(stock_analyzer pthread)
+endif()
 
 # Create database directory
 file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/database)

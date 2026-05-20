@@ -5,6 +5,20 @@
 #include <sstream>
 #include <array>
 #include <memory>
+#include <filesystem>
+
+#ifdef _WIN32
+#include <windows.h>
+#define POPEN  _popen
+#define PCLOSE _pclose
+#else
+#define POPEN  popen
+#define PCLOSE pclose
+#endif
+
+#ifdef __APPLE__
+#include <mach-o/dyld.h>
+#endif
 
 using json = nlohmann::json;
 
@@ -14,27 +28,49 @@ static size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::stri
     return size * nmemb;
 }
 
+// Returns the directory containing the running executable
+static std::filesystem::path getExecutableDir() {
+#ifdef _WIN32
+    wchar_t path[MAX_PATH];
+    GetModuleFileNameW(nullptr, path, MAX_PATH);
+    return std::filesystem::path(path).parent_path();
+#elif defined(__APPLE__)
+    char path[1024];
+    uint32_t size = sizeof(path);
+    _NSGetExecutablePath(path, &size);
+    return std::filesystem::canonical(path).parent_path();
+#else
+    return std::filesystem::read_symlink("/proc/self/exe").parent_path();
+#endif
+}
+
 // Helper function to execute Python script and get output
 static std::string executePythonScript(const std::string& command) {
     std::array<char, 128> buffer;
     std::string result;
-    
-    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(command.c_str(), "r"), pclose);
+
+    std::unique_ptr<FILE, decltype(&PCLOSE)> pipe(POPEN(command.c_str(), "r"), PCLOSE);
     if (!pipe) {
         std::cerr << "Failed to execute command: " << command << std::endl;
         return "";
     }
-    
+
     while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
         result += buffer.data();
     }
-    
+
     return result;
 }
 
 // Get market cap using Python yfinance library
 static double getMarketCapFromPython(const std::string& symbol) {
-    std::string command = "/opt/homebrew/bin/python3 /Users/vern/StockAnalyzer/backend/get_marketcap.py " + symbol;
+#ifdef _WIN32
+    const std::string pythonCmd = "python";
+#else
+    const std::string pythonCmd = "python3";
+#endif
+    auto scriptPath = getExecutableDir().parent_path() / "get_marketcap.py";
+    std::string command = pythonCmd + " \"" + scriptPath.string() + "\" " + symbol;
     std::string output = executePythonScript(command);
     
     if (output.empty()) {
