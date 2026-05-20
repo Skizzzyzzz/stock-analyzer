@@ -69,7 +69,16 @@ static double getMarketCapFromPython(const std::string& symbol) {
 #else
     const std::string pythonCmd = "python3";
 #endif
-    auto scriptPath = getExecutableDir().parent_path() / "get_marketcap.py";
+    // MSVC places the exe in a Release/ or Debug/ subdirectory; account for both layouts
+    auto exeDir = getExecutableDir();
+    auto dirName = exeDir.filename().string();
+    std::filesystem::path scriptPath;
+    if (dirName == "Release" || dirName == "Debug" ||
+        dirName == "RelWithDebInfo" || dirName == "MinSizeRel") {
+        scriptPath = exeDir.parent_path().parent_path() / "get_marketcap.py";
+    } else {
+        scriptPath = exeDir.parent_path() / "get_marketcap.py";
+    }
     std::string command = pythonCmd + " \"" + scriptPath.string() + "\" " + symbol;
     std::string output = executePythonScript(command);
     

@@ -17,30 +17,39 @@ Start-Sleep -Seconds 1
 
 # Start C++ backend on port 8080
 Write-Host "Starting C++ backend server on port 8080..."
-$backendExe = Join-Path $ScriptDir "backend\build\stock_analyzer.exe"
+$backendExe = Join-Path $ScriptDir "backend\build\Release\stock_analyzer.exe"
 if (-not (Test-Path $backendExe)) {
     Write-Host "ERROR: Backend executable not found at $backendExe"
-    Write-Host "Build it first: cd backend\build && cmake .. && cmake --build ."
+    Write-Host "Build it first: cd backend\build && cmake .. && cmake --build . --config Release"
     exit 1
 }
-$backendLog = Join-Path $LogDir "stock_analyzer.log"
-$backend = Start-Process -FilePath $backendExe -RedirectStandardOutput $backendLog -RedirectStandardError $backendLog -PassThru -WindowStyle Hidden
+$backendWorkDir = Join-Path $ScriptDir "backend\build"
+New-Item -ItemType Directory -Force -Path "$backendWorkDir\database" | Out-Null
+$backend = Start-Process -FilePath $backendExe `
+    -WorkingDirectory $backendWorkDir `
+    -RedirectStandardOutput "$LogDir\stock_analyzer.log" `
+    -RedirectStandardError  "$LogDir\stock_analyzer_err.log" `
+    -PassThru -WindowStyle Hidden
 Write-Host "Backend started (PID: $($backend.Id))"
 Write-Host ""
 
 # Start CORS proxy on port 8081
 Write-Host "Starting CORS proxy on port 8081..."
 $proxyScript = Join-Path $ScriptDir "proxy-server.js"
-$proxyLog = Join-Path $LogDir "proxy.log"
-$proxy = Start-Process -FilePath "node" -ArgumentList "`"$proxyScript`"" -RedirectStandardOutput $proxyLog -RedirectStandardError $proxyLog -PassThru -WindowStyle Hidden
+$proxy = Start-Process -FilePath "node" -ArgumentList "`"$proxyScript`"" `
+    -RedirectStandardOutput "$LogDir\proxy.log" `
+    -RedirectStandardError  "$LogDir\proxy_err.log" `
+    -PassThru -WindowStyle Hidden
 Write-Host "Proxy started (PID: $($proxy.Id))"
 Write-Host ""
 
 # Start frontend HTTP server on port 3000
 Write-Host "Starting frontend server on port 3000..."
 $frontendDir = Join-Path $ScriptDir "frontend"
-$frontendLog = Join-Path $LogDir "frontend.log"
-$frontend = Start-Process -FilePath "python" -ArgumentList "-m http.server 3000 --directory `"$frontendDir`"" -RedirectStandardOutput $frontendLog -RedirectStandardError $frontendLog -PassThru -WindowStyle Hidden
+$frontend = Start-Process -FilePath "python" -ArgumentList "-m http.server 3000 --directory `"$frontendDir`"" `
+    -RedirectStandardOutput "$LogDir\frontend.log" `
+    -RedirectStandardError  "$LogDir\frontend_err.log" `
+    -PassThru -WindowStyle Hidden
 Write-Host "Frontend started (PID: $($frontend.Id))"
 Write-Host ""
 

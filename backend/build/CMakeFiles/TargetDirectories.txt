@@ -1,3 +1,3 @@
-/Users/vern/StockAnalyzer/backend/build/CMakeFiles/stock_analyzer.dir
-/Users/vern/StockAnalyzer/backend/build/CMakeFiles/edit_cache.dir
-/Users/vern/StockAnalyzer/backend/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Vern/Downloads/New folder (2)/stock-analyzer/backend/build/CMakeFiles/stock_analyzer.dir
+C:/Users/Vern/Downloads/New folder (2)/stock-analyzer/backend/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vern/Downloads/New folder (2)/stock-analyzer/backend/build/CMakeFiles/ZERO_CHECK.dir
