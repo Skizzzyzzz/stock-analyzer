@@ -19,7 +19,7 @@
                 </div>
                 <div style="display: flex; gap: 15px; align-items: center;">
                     <span style="color: var(--text-secondary);">Welcome, <span id="username-display"></span></span>
-                    <button onclick="logout()" style="padding: 10px 20px; border: 2px solid var(--accent-primary); background: transparent; color: var(--accent-primary); border-radius: 8px; cursor: pointer; font-weight: 600;">Logout</button>
+                    <button id="logout-btn" style="padding: 10px 20px; border: 2px solid var(--accent-primary); background: transparent; color: var(--accent-primary); border-radius: 8px; cursor: pointer; font-weight: 600;">Logout</button>
                 </div>
             </div>
         </header>
@@ -62,8 +62,8 @@
         </div>
     </div>
 
-    <script src="js/app.js?v=7"></script>
-    <script src="js/auth.js?v=7"></script>
+    <script src="js/app.js?v=8"></script>
+    <script src="js/auth.js?v=8"></script>
     <script>
         // Check authentication on page load
         if (!checkAuth()) {

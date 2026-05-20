@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8081/api';
+const AUTH_API_URL = 'http://localhost:8081/api';
 
 // Check if user is already logged in
 function checkAuth() {
@@ -27,7 +27,7 @@ if (document.getElementById('login-form')) {
         const errorDiv = document.getElementById('error-message');
         
         try {
-            const response = await fetch(`${API_URL}/auth/login`, {
+            const response = await fetch(`${AUTH_API_URL}/auth/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -84,7 +84,7 @@ if (document.getElementById('signup-form')) {
         }
         
         try {
-            const response = await fetch(`${API_URL}/auth/register`, {
+            const response = await fetch(`${AUTH_API_URL}/auth/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -120,6 +120,15 @@ function logout() {
     localStorage.removeItem('username');
     window.location.href = 'login.html';
 }
+
+const logoutButton = document.getElementById('logout-btn');
+if (logoutButton) {
+    logoutButton.addEventListener('click', logout);
+}
+
+// Expose auth helpers for inline handlers in the HTML pages
+window.checkAuth = checkAuth;
+window.logout = logout;
 
 // Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {

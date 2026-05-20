@@ -418,7 +418,7 @@ CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][ ][v8.7.1()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/opt/homebrew/lib/libcrypto.dylib][/opt/homebrew/include][ ][v3.6.1()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/opt/homebrew/lib/libcrypto.dylib][/opt/homebrew/include][ ][v3.6.2()]
 //Details about finding SQLite3
 FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libsqlite3.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][v3.43.2()]
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY

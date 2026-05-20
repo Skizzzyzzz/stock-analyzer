@@ -1,48 +1,43 @@
 # Stock Analyzer
 
-Stock Analyzer is a local full-stack app with:
-- C++ backend API (Crow + libcurl + SQLite + OpenSSL) on port `8080`
-- Node.js CORS proxy on port `8081`
-- Static frontend served with Python on port `3000`
+Local stock dashboard with:
+- C++ backend API on port 8080
+- Node.js CORS proxy on port 8081
+- Frontend served by Python HTTP server on port 3000
 
-## Prerequisites
+## 1) Prerequisites
 
-Install these before running the project:
-
-- Git
+Install:
 - CMake (3.10+)
-- C++ compiler with C++17 support (Apple Clang on macOS is fine)
+- C++ compiler (C++17)
 - OpenSSL
 - SQLite3
 - libcurl
 - Node.js + npm
 - Python 3
 
-### macOS (Homebrew)
+On macOS (Homebrew):
 
 ```bash
 brew install cmake openssl sqlite curl node python
 ```
 
-## Project setup
+## 2) First-time setup
 
 From the project root:
 
 ```bash
 npm install
+python3 -m venv .venv
+source .venv/bin/activate
+pip install yfinance
 ```
 
-## Share with a friend (fresh machine)
+`yfinance` is required for market cap retrieval in `backend/get_marketcap.py`.
 
-Send your friend the repository URL and ask them to run:
+## 3) Build backend
 
-```bash
-git clone <your-repo-url>
-cd StockAnalyzer
-npm install
-```
-
-Then build backend:
+Run when cloning for the first time or after C++ changes:
 
 ```bash
 cd backend
@@ -53,44 +48,19 @@ cmake --build .
 cd ../..
 ```
 
-Then start app:
+## 4) Start everything
 
 ```bash
 chmod +x start.sh
 ./start.sh
 ```
 
-Open: `http://localhost:3000`
-
-## Build backend
-
-If backend is not built yet (or after C++ changes):
-
-```bash
-cd backend
-mkdir -p build
-cd build
-cmake ..
-cmake --build .
-```
-
-This produces the backend executable at `backend/build/stock_analyzer`.
-
-## Start the app
-
-Quick start (recommended):
-
-```bash
-chmod +x start.sh
-./start.sh
-```
-
-App URLs:
+Open:
 - Frontend: http://localhost:3000
 - Proxy API: http://localhost:8081
-- Backend API (direct): http://localhost:8080
+- Backend API: http://localhost:8080
 
-## Stop all services
+## 5) Stop services
 
 ```bash
 pkill -9 stock_analyzer
@@ -98,7 +68,7 @@ pkill -f "python.*http.server"
 pkill -f "node proxy-server.js"
 ```
 
-## Logs
+## 6) Logs
 
 ```bash
 tail -f /tmp/stock_analyzer.log
@@ -106,16 +76,9 @@ tail -f /tmp/proxy.log
 tail -f /tmp/frontend.log
 ```
 
-## What to add to `.gitignore`
+## Quick restart
 
-For this project, keep these ignored:
-
-- Build output (`backend/build/`, object files)
-- Runtime databases (`*.db`, `database/`)
-- Runtime logs (`*.log`)
-- Python virtual envs (`.venv/`, `venv/`)
-- Node dependencies (`node_modules/`)
-- Local secrets (`.env`, `.env.*`)
-- Editor/OS files (`.vscode/`, `.DS_Store`)
-
-This repository already includes a `.gitignore`; see below for an updated version with recommended entries.
+```bash
+source .venv/bin/activate
+./start.sh
+```
